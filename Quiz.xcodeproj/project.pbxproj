@@ -14,6 +14,9 @@
 		27E8CAF51C1D115E00D258EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E8CAF31C1D115E00D258EF /* LaunchScreen.storyboard */; };
 		27E8CB001C1D115E00D258EF /* QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E8CAFF1C1D115E00D258EF /* QuizTests.swift */; };
 		27E8CB0B1C1D115E00D258EF /* QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E8CB0A1C1D115E00D258EF /* QuizUITests.swift */; };
+		27E8CB191C1D11E900D258EF /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E8CB181C1D11E900D258EF /* QuizViewController.swift */; };
+		27E8CB1B1C1D121E00D258EF /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E8CB1A1C1D121E00D258EF /* ResultViewController.swift */; };
+		27E8CB571C1D44E900D258EF /* minecraft綺麗のコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E8CB561C1D44E900D258EF /* minecraft綺麗のコピー.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		27E8CB061C1D115E00D258EF /* QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E8CB0A1C1D115E00D258EF /* QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizUITests.swift; sourceTree = "<group>"; };
 		27E8CB0C1C1D115E00D258EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E8CB181C1D11E900D258EF /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		27E8CB1A1C1D121E00D258EF /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		27E8CB561C1D44E900D258EF /* minecraft綺麗のコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minecraft綺麗のコピー.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,12 @@
 				27E8CAEA1C1D115D00D258EF /* AppDelegate.swift */,
 				27E8CAEC1C1D115D00D258EF /* ViewController.swift */,
 				27E8CAEE1C1D115D00D258EF /* Main.storyboard */,
+				27E8CB561C1D44E900D258EF /* minecraft綺麗のコピー.png */,
 				27E8CAF11C1D115D00D258EF /* Assets.xcassets */,
 				27E8CAF31C1D115E00D258EF /* LaunchScreen.storyboard */,
 				27E8CAF61C1D115E00D258EF /* Info.plist */,
+				27E8CB181C1D11E900D258EF /* QuizViewController.swift */,
+				27E8CB1A1C1D121E00D258EF /* ResultViewController.swift */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -231,6 +240,7 @@
 			files = (
 				27E8CAF51C1D115E00D258EF /* LaunchScreen.storyboard in Resources */,
 				27E8CAF21C1D115D00D258EF /* Assets.xcassets in Resources */,
+				27E8CB571C1D44E900D258EF /* minecraft綺麗のコピー.png in Resources */,
 				27E8CAF01C1D115D00D258EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E8CB191C1D11E900D258EF /* QuizViewController.swift in Sources */,
 				27E8CAED1C1D115D00D258EF /* ViewController.swift in Sources */,
 				27E8CAEB1C1D115D00D258EF /* AppDelegate.swift in Sources */,
+				27E8CB1B1C1D121E00D258EF /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +496,7 @@
 				27E8CB111C1D115E00D258EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27E8CB121C1D115E00D258EF /* Build configuration list for PBXNativeTarget "QuizTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				27E8CB141C1D115E00D258EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27E8CB151C1D115E00D258EF /* Build configuration list for PBXNativeTarget "QuizUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				27E8CB171C1D115E00D258EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
